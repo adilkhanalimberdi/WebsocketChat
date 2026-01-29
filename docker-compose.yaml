@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  backend:
+    image: chat-backend
+    build: .
+    ports:
+      - "8888:8080"

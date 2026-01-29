@@ -1,0 +1,10 @@
+.gradle
+build
+out
+node_modules
+.git
+.idea
+.gitignore
+.gitattributes
+HELP.md
+*.iml

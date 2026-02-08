@@ -33,7 +33,8 @@ function connect(event) {
         chatPage.classList.remove('hidden');
         chatPage.style.display = 'flex';
 
-        let socket = new SockJS('http://localhost:8888/ws');
+        let socket = new SockJS('http://13.50.246.65:8080/ws');
+        // let socket = new SockJS('https://7d1097df99c5.ngrok-free.app/ws');
         stompClient = Stomp.over(socket);
 
         stompClient.connect({}, onConnected, onError);
